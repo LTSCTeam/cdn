@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://deezcat.github.io/Supra/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supra Method</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://blog.jitter.video/content/images/size/w960/2021/12/Jitter-Pink-perfect-loop-cubes.gif') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .downloads, .copy-text {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+
+        .drag-to-launcher {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #007BFF;
+            cursor: pointer;
+        }
+
+        .drag-to-launcher:hover {
+            color: #0056b3;
+        }
+    </style>
+<style>@keyframes loading {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.ag-textarea .MuiInputBase-input::-webkit-scrollbar {
+    height: 6px;
+    width: 6px
+}
+
+.ag-textarea .MuiInputBase-input::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.ag-textarea .MuiInputBase-input::-webkit-scrollbar-thumb {
+    background: #dfdfdf;
+    border-radius: 4px
+}
+
+.ag-textarea .MuiInputBase-input::-webkit-scrollbar-thumb:hover {
+    background: #d4d4d4
+}</style></head>
+<body><div id="ag-1720725308109"><template shadowrootmode="open"><div style="all: initial;"><div><div role="tooltip" class="base-Popper-root ag-select-popper-css-1z4dyc" style="position: fixed; top: 0px; left: 0px; display: none;"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 ag-select-popper-css-aoeo82"><div class="MuiBox-root ag-select-popper-css-0"><div class="MuiBox-root ag-select-popper-css-1i2n83q"></div><div class="MuiBox-root ag-select-popper-css-644370"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall ag-select-popper-css-1j7qk7u" tabindex="0" type="button"><img src="chrome-extension://bincmiainjofjnhchmcalkanjebghoen/img/icon-38.png" style="width: 22px; height: 22px; border-radius: 4px;"><span class="MuiTouchRipple-root ag-select-popper-css-w0pj6f"></span></button></div></div></div></div></div></div><style><style data-emotion="ag-select-popper-css" data-s=""></style></style></template></div>
+    <div class="container">
+        <h1>Supra Method</h1>
+        
+        <div class="downloads">
+            <h2>Download this on your PC</h2>
+            <a href="https://www.autohotkey.com/download/ahk-v2.exe" download="file1.txt" class="button">AutoHotKey</a>
+            <a href="https://cdn.discordapp.com/attachments/1205860886883991552/1260552446087008286/Supra_Script.ahk?ex=668fbc73&amp;is=668e6af3&amp;hm=cbbaa78b349580216802c1331741ad7f054778eb2c45a25686d248ae173fa64a&amp;" download="file2.txt" class="button">Supra Script.ahk</a>
+        </div>
+
+        <div class="copy-text">
+            <h2>Copy Text</h2>
+            <textarea id="text-to-copy" readonly="">C:\Program Files (x86)\NVIDIA_Grid_Bundle\black_desert_online_pearl_abyss_na_eu\BlackDesert\PERS.exe</textarea>
+            <button onclick="copyText()" class="button">Copy into GFN</button>
+        </div>
+
+        <div class="copy-text">
+            <h2>Copy Text</h2>
+            <textarea id="text-to-copy-usa" readonly="">C:\Program Files (x86)\NVIDIA_Grid_Bundle\black_desert_online_pearl_abyss_na_usa\BlackDesert\PERS.exe</textarea>
+            <button onclick="copyTextUSA()" class="button">Copy into GFN</button>
+        </div>
+
+        <a href="https://cdn.exp1oit.xyz/AdminRunner.exe" draggable="true" download="file1.txt" class="button">DRAG TO PEARL ABYSS LAUNCHER</a>
+    </div>
+
+    <script>
+        function copyText() {
+            const textToCopy = document.getElementById('text-to-copy');
+            textToCopy.select();
+            textToCopy.setSelectionRange(0, 99999); // For mobile devices
+
+            try {
+                document.execCommand('copy');
+                alert('Text copied to clipboard');
+            } catch (err) {
+                console.error('Failed to copy text: ', err);
+            }
+        }
+
+        function copyTextUSA() {
+            const textToCopyUSA = document.getElementById('text-to-copy-usa');
+            textToCopyUSA.select();
+            textToCopyUSA.setSelectionRange(0, 99999); // For mobile devices
+
+            try {
+                document.execCommand('copy');
+                alert('Text copied to clipboard');
+            } catch (err) {
+                console.error('Failed to copy text: ', err);
+            }
+        }
+
+        function dragStart(event) {
+            event.dataTransfer.setData('text/plain', 'RGB Launcher Dragged Item');
+            event.dataTransfer.dropEffect = 'move';
+            alert('Drag started!');
+        }
+    </script>
+
+
+<script src="chrome-extension://bincmiainjofjnhchmcalkanjebghoen/aiscripts/script-main.js"></script></body></html>
